@@ -1,0 +1,28 @@
+.NavSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.NavIcons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavIcons>img ,.NavIcons>svg{
+    width: 1.5rem;
+    height:  1.5rem;
+    cursor: pointer;
+}
+.nav-button{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
+/* Small screens (phones and very small devices) */
+@media (max-width: 780px) {
+    .NavSide {
+       display: none
+    }
+}
+

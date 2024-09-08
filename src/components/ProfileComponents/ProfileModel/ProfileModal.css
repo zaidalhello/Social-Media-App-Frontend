@@ -1,0 +1,27 @@
+.modelForm {
+  background-color: var(--cardColor);
+  width: 90%;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.InfoInput {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  flex: 1;
+}
+.modelForm > div {
+  display: flex;
+  gap: 1rem;
+}
+.uploadImges{
+    display: flex;
+    justify-content: space-between;
+}

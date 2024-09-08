@@ -1,0 +1,26 @@
+.PostCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  gap: 1rem;
+  
+}
+
+.PostCard >img {
+    width: 100%;
+    max-height: 50rem;
+  
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.PostReact{
+    display: flex;
+    gap: 1.5rem;
+    align-items: self-start;
+}
+.PostCard>span{
+  font-weight: 400;
+  font-size: 14px;
+}

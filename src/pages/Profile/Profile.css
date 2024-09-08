@@ -1,0 +1,45 @@
+.Profile {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18rem auto 20rem;
+  gap: 1rem;
+  height: 100vh;
+}
+
+/* Medium screens (larger tablets and smaller desktops) */
+@media (max-width: 1024px) {
+  .Profile {
+      grid-template-columns: 15rem auto 15rem; /* Adjust column widths */
+      gap: 1rem;
+  }
+}
+
+/* Small screens (phones and smaller tablets) */
+@media (max-width: 768px) {
+  .Profile {
+      grid-template-columns: 1fr; /* Stack items vertically */
+      gap: 1rem;
+  }
+}
+
+/* Extra small screens (phones in portrait mode) */
+@media (max-width: 480px) {
+  .Profile {
+      grid-template-columns: 1fr; /* Stack items vertically */
+      gap: 0.5rem; /* Reduce gap */
+  }
+}
+
+.profile-center {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Adjust profile-center for smaller screens */
+@media (max-width: 768px) {
+  .profile-center {
+      gap: 0.5rem; /* Reduce gap for smaller screens */
+  }
+}
